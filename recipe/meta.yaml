@@ -1,4 +1,4 @@
-{% set version = "6.0.4" %}
+{% set version = "6.0.5" %}
 
 package:
   name: dydxprotocol-v4-proto-js-split
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/dydxprotocol/v4-chain/archive/refs/tags/protocol/v{{ version }}.tar.gz
-  sha256: 2cced855014108f58156b525c69ca60c11681f96b6ee1cdf5b6da90fcb6e76b2
+  sha256: 8f65ea797621dffd049cb19bb0e0398099c14e7777ab04c1931dcab783db7ca6
   folder: js_module_source
 
 build:
